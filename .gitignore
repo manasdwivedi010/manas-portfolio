@@ -1,0 +1,6 @@
+# Ignore document files
+*.docx
+*.doc
+
+# Ignore logs
+*.log

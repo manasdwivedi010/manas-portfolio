@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manas Dwivedi | Software Engineer</title>
+    <meta name="description" content="Portfolio of Manas Dwivedi - Software Engineer specializing in backend logic, AI integrations, and full stack systems.">
+    <meta name="keywords" content="Manas Dwivedi, Software Engineer, Portfolio, Java, Python, AI Attendance, Kanpur, PSIT">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@400;700;900&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Grid Overlay -->
+    <div class="grid-background">
+        <div class="grid-col"></div>
+        <div class="grid-col"></div>
+        <div class="grid-col"></div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="brand">MANAS DWIVEDI</a>
+            
+            <nav class="nav-links">
+                <a href="#projects" class="nav-link">PROJECTS</a>
+                <a href="#experience" class="nav-link">EXPERIENCE</a>
+                <button class="nav-btn btn-resume" id="resume-btn">RESUME</button>
+                <button class="nav-btn btn-connect" id="connect-btn">CONNECT</button>
+                <button class="terminal-toggle" id="terminal-toggle-btn" title="Open Console">
+                    <i class="fa-solid fa-terminal"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Grid -->
+    <main class="main-layout">
+        <!-- Hero Section -->
+        <section class="section-hero" id="hero">
+            <div class="hero-left">
+                <span class="hero-label">BUILDING DAILY / SOFTWARE ENGINEER</span>
+                <h1 class="hero-name">
+                    MANAS<br>DWIVEDI
+                </h1>
+                <div class="hero-quote-block">
+                    <p>Architecting intelligent systems, robust backends & interactive web experiences with engineering excellence.</p>
+                </div>
+            </div>
+            
+            <div class="hero-right">
+                <a href="#projects" class="view-works-btn">
+                    VIEW WORKS <span class="arrow">→</span>
+                </a>
+                <div class="hero-telemetry">
+                    <div>LAT: 26.4499° N / LONG: 80.3319° E</div>
+                    <div>STATUS: ACTIVE_DEVELOPMENT</div>
+                    <div>CORE_ENGINE: WEB_ENGINE_V8</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Arsenal Section -->
+        <section class="section-skills" id="skills">
+            <div class="skills-left">
+                <span class="section-tag">TECHNICAL ARSENAL</span>
+                <h2 class="skills-headline">Meticulously curated toolset for high-scale computational efficiency.</h2>
+            </div>
+            
+            <div class="skills-right">
+                <div class="skills-grid">
+                    <div class="skill-item">JAVA</div>
+                    <div class="skill-item">JAVASCRIPT</div>
+                    <div class="skill-item">PYTHON</div>
+                    <div class="skill-item">C Language</div>
+                    <div class="skill-item">REACT.JS</div>
+                    <div class="skill-item">BOOTSTRAP</div>
+                    <div class="skill-item">HTML5 / CSS3</div>
+                    <div class="skill-item">SQL</div>
+                    <div class="skill-item">SELENIUM</div>
+                    <div class="skill-item">JENKINS</div>
+                    <div class="skill-item">ORACLE / MYSQL</div>
+                    <div class="skill-item highlighted">FULL STACK</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Selected Projects Section -->
+        <section class="section-projects" id="projects">
+            <div class="projects-header">
+                <span class="section-tag">SELECTED PROJECTS</span>
+                <a href="https://github.com/manasdwivedi010" target="_blank" class="explore-more-link">
+                    EXPLORE MORE <span class="arrow">↗</span>
+                </a>
+            </div>
+
+            <div class="projects-gallery">
+                <!-- Project 1: FaceLogix -->
+                <div class="project-gallery-item project-modal-trigger" data-target="modal-ai">
+                    <div class="project-image-wrap">
+                        <img src="ai_attendance_preview.png" alt="FaceLogix">
+                        <span class="project-badge">AI Face Recognition Attendance System</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>FaceLogix</h3>
+                        <p>FaceLogix is an AI-powered face recognition attendance tracking system designed for real-time subject-wise logging and database integration.</p>
+                    </div>
+                </div>
+
+                <!-- Project 2: Research Buddy -->
+                <div class="project-gallery-item project-modal-trigger" data-target="modal-research-buddy">
+                    <div class="project-image-wrap">
+                        <img src="research_buddy_preview.png" alt="Research Buddy">
+                        <span class="project-badge">AI Research Platform</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Research Buddy</h3>
+                        <p>Research Buddy is an intelligent document exploration platform that leverages AI models to summarize, search, and cross-reference research papers.</p>
+                    </div>
+                </div>
+
+                <!-- Project 3: University Management System -->
+                <div class="project-gallery-item project-modal-trigger" data-target="modal-ums">
+                    <div class="project-image-wrap">
+                        <img src="university_mgmt_preview.png" alt="University Management System">
+                        <span class="project-badge">Java Enterprise Software</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>University Management System</h3>
+                        <p>A robust enterprise management solution designed in Java and MySQL to handle daily academic schedules, grading, and registrations.</p>
+                    </div>
+                </div>
+
+                <!-- Project 4: Netflix Clone UI Replica -->
+                <div class="project-gallery-item project-modal-trigger" data-target="modal-netflix">
+                    <div class="project-image-wrap">
+                        <img src="netflix_clone_preview.png" alt="Netflix Clone UI Replica">
+                        <span class="project-badge">Frontend UI Replica</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Netflix Clone</h3>
+                        <p>A pixel-perfect frontend replica of the Netflix homepage layout, showing video hover cards and horizontal media rails.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Academic & Experience Section -->
+        <section class="section-experience" id="experience">
+            <div class="exp-left">
+                <span class="section-tag">QUALIFICATIONS & PATH</span>
+                <h2 class="exp-headline">Education history and professional credentials.</h2>
+            </div>
+            
+            <div class="exp-right">
+                <div class="exp-timeline">
+                    <div class="timeline-card">
+                        <div class="timeline-meta">
+                            <span class="date">07/2025 – 03/2027</span>
+                            <span class="loc">Kanpur, India</span>
+                        </div>
+                        <h3>Master of Computer Application (MCA)</h3>
+                        <p class="inst">Pranveer Singh Institute of Technology (PSIT)</p>
+                    </div>
+
+                    <div class="timeline-card">
+                        <div class="timeline-meta">
+                            <span class="date">06/2022 – 05/2025</span>
+                            <span class="loc">Kanpur, India</span>
+                        </div>
+                        <h3>Bachelor of Computer Application (BCA)</h3>
+                        <p class="inst">Virendra Swarup Institute of Computer Studies (VSICS)</p>
+                    </div>
+                </div>
+
+                <div class="exp-credentials">
+                    <span class="section-tag" style="margin-top: 4rem; margin-bottom: 1.5rem; display: block;">CREDENTIALS</span>
+                    <div class="certs-list">
+                        <div class="cert-item">
+                            <span class="cert-name">Generative AI by UNICEF</span>
+                            <span class="cert-desc">Fundamentals & Ethical Implementation</span>
+                        </div>
+                        <div class="cert-item">
+                            <span class="cert-name">AWS Certified Developer</span>
+                            <span class="cert-desc">Cloud Application Deployment & Management</span>
+                        </div>
+                        <div class="cert-item">
+                            <span class="cert-name">Oracle Cloud Infrastructure</span>
+                            <span class="cert-desc">OCI Architecture & Operations</span>
+                        </div>
+                        <div class="cert-item">
+                            <span class="cert-name">Full Stack Development</span>
+                            <span class="cert-desc">End-to-End Enterprise Web Systems</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Philosophy Section -->
+        <section class="section-philosophy">
+            <div class="philosophy-bg-binary">010101</div>
+            <div class="philosophy-container">
+                <span class="section-tag">THE PHILOSOPHY</span>
+                <blockquote class="philosophy-quote">
+                    <span style="--delay: 1">"Simplicity</span>
+                    <span style="--delay: 2">is</span>
+                    <span style="--delay: 3">the</span>
+                    <span style="--delay: 4">ultimate</span>
+                    <span style="--delay: 5">sophistication</span>
+                    <span style="--delay: 6">in</span>
+                    <span style="--delay: 7">code.</span>
+                    <span style="--delay: 8">We</span>
+                    <span style="--delay: 9">do</span>
+                    <span style="--delay: 10">not</span>
+                    <span style="--delay: 11">write</span>
+                    <span style="--delay: 12">statements</span>
+                    <span style="--delay: 13">merely</span>
+                    <span style="--delay: 14">to</span>
+                    <span style="--delay: 15">instruct</span>
+                    <span style="--delay: 16">machines;</span>
+                    <span style="--delay: 17">we</span>
+                    <span style="--delay: 18">craft</span>
+                    <span style="--delay: 19">algorithms</span>
+                    <span style="--delay: 20">to</span>
+                    <span style="--delay: 21">solve</span>
+                    <span style="--delay: 22">complex</span>
+                    <span style="--delay: 23">human</span>
+                    <span style="--delay: 24">challenges."</span>
+                </blockquote>
+                <hr class="philosophy-line">
+                <div class="philosophy-telemetry">
+                    LEETCODE: 150+ SOLVED | REDUNDANCY: MINIMAL | LATENCY: OPTIMIZED
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-col brand-col">
+            <span class="footer-brand">MANAS DWIVEDI</span>
+            <span class="footer-meta">EST. 2024 / MD.PORTFOLIO.V1</span>
+        </div>
+        <div class="footer-col links-col">
+            <span class="col-title">NETWORK</span>
+            <a href="https://github.com/manasdwivedi010" target="_blank">GITHUB</a>
+            <a href="https://linkedin.com/in/manas-dwivedi-a374b5247" target="_blank">LINKEDIN</a>
+            <a href="https://leetcode.com/u/dubeymanas618/" target="_blank">LEETCODE</a>
+        </div>
+        <div class="footer-col resources-col">
+            <span class="col-title">RESOURCES</span>
+            <a href="#">SOURCE</a>
+            <span class="status-indicator"><span class="status-dot"></span> SYSTEM STATUS: OPTIMAL</span>
+        </div>
+        <div class="footer-col copyright-col">
+            <span>© 2026 MANAS DWIVEDI. ALL RIGHTS RESERVED.</span>
+        </div>
+    </footer>
+
+    <!-- Terminal Emulator Modal -->
+    <div class="terminal-modal" id="terminal-modal">
+        <div class="terminal-window">
+            <div class="terminal-header">
+                <div class="terminal-dots">
+                    <span class="dot dot-red" id="close-terminal"></span>
+                    <span class="dot dot-yellow"></span>
+                    <span class="dot dot-green"></span>
+                </div>
+                <span class="terminal-title">manas@portfolio_v1:~</span>
+            </div>
+            <div class="terminal-body" id="terminal-output">
+                <div class="terminal-line"><span class="prompt">manas@portfolio:~$</span> welcome</div>
+                <div class="terminal-line text-muted">Type <span class="cmd">help</span> to list commands.</div>
+            </div>
+            <div class="terminal-input-row">
+                <span class="prompt">manas@portfolio:~$</span>
+                <input type="text" id="terminal-input" placeholder="Type command..." autofocus autocomplete="off">
+            </div>
+        </div>
+    </div>
+
+    <!-- Resume Viewer Modal -->
+    <div class="modal" id="resume-modal">
+        <div class="modal-content resume-modal-content">
+            <button class="modal-close resume-modal-close" id="close-resume-modal">&times;</button>
+            <div class="modal-header-text">
+                <h2 class="resume-modal-title">Resume</h2>
+                <p class="resume-modal-subtitle">Checkout my Resume</p>
+            </div>
+            <div class="modal-body resume-modal-body">
+                <div class="resume-image-container">
+                    <img src="manas_resume_preview.png?v=1.2" alt="Manas Dwivedi Resume Preview" class="resume-preview-img">
+                </div>
+                <div class="modal-actions resume-modal-actions">
+                    <a href="manas_dwivedi_resume.pdf?v=1.2" target="_blank" class="download-resume-btn">
+                        View Full Resume <span class="arrow">&rarr;</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Details Modals -->
+    <div class="modal" id="modal-ai">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>FaceLogix</h3>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Designed and developed FaceLogix, a real-time face recognition-based automated attendance management system using Python, React, WebSockets, and MySQL.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-research-buddy">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Research Buddy</h3>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Built Research Buddy, a conversational AI research companion that assists scholars in semantic searches, literature review syntheses, and document cross-referencing.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-ums">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>University Management System</h3>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Relational enterprise software engineered in Java and MySQL designed to track academic courses, student registrations, grading reports, and faculty allocations.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="modal-netflix">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Netflix Clone UI Replica</h3>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Pixel-perfect visual reproduction of Netflix's movie catalog platform, written in pure HTML5 and CSS3.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Modal -->
+    <div class="modal" id="contact-modal">
+        <div class="modal-content contact-modal-content">
+            <div class="modal-header-accent-line"></div>
+            <button class="modal-close contact-modal-close" id="close-contact-modal">&times;</button>
+            <div class="modal-header-text">
+                <h2 class="contact-modal-title">Let's build something</h2>
+                <p class="contact-modal-subtitle">Got a project, opportunity, or crazy idea? If it's interesting, I'm listening.</p>
+            </div>
+            <div class="modal-body">
+                <form class="modal-contact-form" id="modal-contact-form" action="https://formsubmit.co/dubeymanas618@gmail.com" method="POST">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="modal-name">Name</label>
+                            <input type="text" name="name" id="modal-name" required placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="modal-email">Email</label>
+                            <input type="email" name="email" id="modal-email" required placeholder="you@example.com">
+                        </div>
+                    </div>
+                    <div class="form-group msg-group">
+                        <label for="modal-message">Message</label>
+                        <textarea name="message" id="modal-message" required placeholder="Tell me what you're working on..."></textarea>
+                    </div>
+                    <div class="modal-contact-footer">
+                        <span class="response-time">Expect response within 24-48 hrs</span>
+                        <button type="submit" class="modal-submit-btn">Send &rarr;</button>
+                    </div>
+                    <div class="form-status" id="modal-form-status"></div>
+                </form>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
