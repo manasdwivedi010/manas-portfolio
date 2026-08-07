@@ -4,7 +4,7 @@ A high-performance, minimalist developer portfolio styled after obsidian wirefra
 
 ## 🚀 Live Preview
 - **URL**: [manas-portfolio.vercel.app](https://manas-portfolio.vercel.app)
-- **Design Inspiration**: `manvsin.vercel.app` (Obsidian Wireframe / Telemetry Theme)
+
 
 ---
 
