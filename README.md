@@ -3,8 +3,7 @@
 A high-performance, minimalist developer portfolio styled after obsidian wireframes and grid telemetry aesthetics. Designed to showcase modern software engineering practices, certified cloud operations, and interactive tools.
 
 ## 🚀 Live Preview
-- **URL**: [manas-portfolio.vercel.app](https://manas-portfolio.vercel.app)
-
+- **URL**: [manasdwivedi.vercel.app](https://manasdwivedi.vercel.app)
 
 ---
 
