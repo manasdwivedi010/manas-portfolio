@@ -185,7 +185,7 @@ document.addEventListener('DOMContentLoaded', () => {
                            '- Bachelor of Computer Application (BCA) @ VSICS Kanpur (2022-2025)');
                 break;
             case 'leetcode':
-                appendLine('Total Solved: 150+ problems.<br>Core Topics: Data Structures, Search Algorithms, Dynamic Programming, Arrays, Trees.');
+                appendLine('Total Solved: 200+ problems.<br>Core Topics: Data Structures, Search Algorithms, Dynamic Programming, Arrays, Trees.');
                 break;
             case 'contact':
                 appendLine('Email: <a href="mailto:dubeymanas618@gmail.com" style="color: var(--accent-cyan);">dubeymanas618@gmail.com</a><br>' +
